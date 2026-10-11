@@ -1,0 +1,194 @@
+{
+  "Llama 3.1 8B": {
+    "none": {
+      "asr": 5.0,
+      "ci95": [
+        0.0,
+        15.0
+      ],
+      "succ": 1,
+      "n": 20,
+      "errors": 0
+    },
+    "instruction": {
+      "asr": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "succ": 0,
+      "n": 20,
+      "errors": 0
+    },
+    "spotlight": {
+      "asr": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "succ": 0,
+      "n": 20,
+      "errors": 0
+    }
+  },
+  "Mistral 7B": {
+    "none": {
+      "asr": 40.0,
+      "ci95": [
+        20.0,
+        60.0
+      ],
+      "succ": 8,
+      "n": 20,
+      "errors": 0
+    },
+    "instruction": {
+      "asr": 5.0,
+      "ci95": [
+        0.0,
+        15.0
+      ],
+      "succ": 1,
+      "n": 20,
+      "errors": 0
+    },
+    "spotlight": {
+      "asr": 10.0,
+      "ci95": [
+        0.0,
+        25.0
+      ],
+      "succ": 2,
+      "n": 20,
+      "errors": 0
+    }
+  },
+  "Qwen2.5 7B": {
+    "none": {
+      "asr": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "succ": 0,
+      "n": 20,
+      "errors": 0
+    },
+    "instruction": {
+      "asr": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "succ": 0,
+      "n": 20,
+      "errors": 0
+    },
+    "spotlight": {
+      "asr": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "succ": 0,
+      "n": 20,
+      "errors": 0
+    }
+  },
+  "Gemma 2 9B": {
+    "none": {
+      "asr": 100.0,
+      "ci95": [
+        100.0,
+        100.0
+      ],
+      "succ": 20,
+      "n": 20,
+      "errors": 0
+    },
+    "instruction": {
+      "asr": 70.0,
+      "ci95": [
+        50.0,
+        90.0
+      ],
+      "succ": 14,
+      "n": 20,
+      "errors": 0
+    },
+    "spotlight": {
+      "asr": 15.0,
+      "ci95": [
+        0.0,
+        30.1
+      ],
+      "succ": 3,
+      "n": 20,
+      "errors": 0
+    }
+  },
+  "Qwen2.5 14B": {
+    "none": {
+      "asr": 45.0,
+      "ci95": [
+        25.0,
+        65.1
+      ],
+      "succ": 9,
+      "n": 20,
+      "errors": 0
+    },
+    "instruction": {
+      "asr": 5.0,
+      "ci95": [
+        0.0,
+        15.0
+      ],
+      "succ": 1,
+      "n": 20,
+      "errors": 0
+    },
+    "spotlight": {
+      "asr": 5.0,
+      "ci95": [
+        0.0,
+        15.0
+      ],
+      "succ": 1,
+      "n": 20,
+      "errors": 0
+    }
+  },
+  "Phi-4 14B": {
+    "none": {
+      "asr": 75.0,
+      "ci95": [
+        55.0,
+        95.0
+      ],
+      "succ": 15,
+      "n": 20,
+      "errors": 0
+    },
+    "instruction": {
+      "asr": 30.0,
+      "ci95": [
+        10.0,
+        50.0
+      ],
+      "succ": 6,
+      "n": 20,
+      "errors": 0
+    },
+    "spotlight": {
+      "asr": 65.0,
+      "ci95": [
+        45.0,
+        85.0
+      ],
+      "succ": 13,
+      "n": 20,
+      "errors": 0
+    }
+  }
+}
